@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="personal, blog, sandbox, waldo, urribarri, waldou, maracaibo, zulia, venezuela, santiago, chile" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- BEGIN FACEBOOK OPENGRAPH TAGS -->
+    <meta property="fb:admins" content="815916987" />
+    <meta property="fb:app_id" content="304360266348367" />
+    <meta property="og:title" content="waldou.com" />
+    <meta property="og:description" content="waldou.com[Personal blog and sandbox of Waldo Urribarri]" />
+    <meta property="og:url" content="https://www.waldou.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.waldou.com/img/waldou.jpg"/>
+    <!-- END FACEBOOK OPENGRAPH TAGS -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111998844-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-111998844-1');
+    </script>
+
+  </head>
+  <body>
+    <noscript>
+      <strong>I'm sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
