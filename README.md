@@ -1,4 +1,5 @@
 # waldou-com
+My personal website
 
 ## Project setup
 ```
@@ -17,13 +18,5 @@ npm run build
 
 ### Run your unit tests
 ```
-npm run test:unit
+npm run tests
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
