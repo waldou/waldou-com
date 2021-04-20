@@ -25,7 +25,7 @@ afterEach(() => {
 
 it('renders', () => {
   const wrapper = shallowMount(MyGithub)
-  expect(wrapper.isVueInstance()).toBeTruthy()
+  expect(wrapper.vm).toBeTruthy()
 })
 
 it('requests data on mount', async (done) => {

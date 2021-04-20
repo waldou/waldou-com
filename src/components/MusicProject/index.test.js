@@ -10,7 +10,7 @@ const propsData = {
 
 it('renders', () => {
   const wrapper = shallowMount(MusicProject, { propsData })
-  expect(wrapper.isVueInstance()).toBeTruthy()
+  expect(wrapper.vm).toBeTruthy()
   expect(wrapper.classes()).toContain('project')
 })
 

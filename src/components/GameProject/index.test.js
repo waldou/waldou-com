@@ -12,7 +12,7 @@ const propsData = {
 
 it('renders', () => {
   const wrapper = shallowMount(GameProject, { propsData })
-  expect(wrapper.isVueInstance()).toBeTruthy()
+  expect(wrapper.vm).toBeTruthy()
   expect(wrapper.classes()).toContain('project')
 })
 

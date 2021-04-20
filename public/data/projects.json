@@ -1,6 +1,15 @@
 {
     "data": [
         {
+            "link": "https://github.com/waldou/chip8-emulator",
+            "media": "<figure><img src='/img/projects/chip8-desktop.gif'></figure>",
+            "title": "Chip8 Emulator",
+            "year": "2021",
+            "type": "Application",
+            "platform": "Desktop",
+            "description": "CHIP-8 emulator/VM using Java 11 and Swing/AWT for the UI. It is open-sourced in <a href=\"https://github.com/waldou/chip8-emulator\">Github</a>. Check more about CHIP-8 in <a href=\"https://en.wikipedia.org/wiki/CHIP-8\">Wikipedia</a>."
+        },
+        {
             "link": "https://waldou.github.io/make-pretty-xml/",
             "media": "<figure><img src='/img/projects/mpxml.png'></figure>",
             "title": "Make Pretty XML",

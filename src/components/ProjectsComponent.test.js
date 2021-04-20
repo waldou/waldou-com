@@ -61,7 +61,7 @@ afterEach(() => {
 
 it('renders', () => {
   const wrapper = shallowMount(ProjectsComponent)
-  expect(wrapper.isVueInstance()).toBeTruthy()
+  expect(wrapper.vm).toBeTruthy()
 })
 
 it('requests projects on mount', async (done) => {
