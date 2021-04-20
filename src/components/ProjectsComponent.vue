@@ -93,6 +93,7 @@
         />
       </div>
     </div>
+    <div class="clear" />
   </div>
 </template>
 
@@ -179,6 +180,11 @@ export default {
   clear:both;
   width:100%;
   padding: 10px;
+}
+
+.clear {
+  float: none;
+  clear: both;
 }
 
 @media (max-width: 960px) {
