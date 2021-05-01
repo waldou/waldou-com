@@ -6,6 +6,9 @@ module.exports = {
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
   ],
+  moduleNameMapper: {
+    '^.+\\.(css|less|scss)$': 'babel-jest',
+  },
   coverageDirectory: '<rootDir>/.coverage/',
   collectCoverageFrom: [
     '<rootDir>/src/**/*.vue',

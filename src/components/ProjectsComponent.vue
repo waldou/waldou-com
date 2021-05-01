@@ -166,7 +166,7 @@ export default {
 
 .projectWrapper {
   box-sizing: border-box;
-  padding: 10px;
+  padding: 8px;
 }
 
 .projectsDesktop {
@@ -176,10 +176,10 @@ export default {
 .projectsMobile {
   display: none;
   box-sizing: border-box;
-  float:none;
-  clear:both;
-  width:100%;
-  padding: 10px;
+  float: none;
+  clear: both;
+  width: 100%;
+  padding: 8px;
 }
 
 .clear {
@@ -187,12 +187,57 @@ export default {
   clear: both;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
 	.projectsDesktop {
     display: none;
   }
 	.projectsMobile {
     display: block;
   }
+}
+</style>
+
+<style lang="scss">
+@import "@/scss/palette.scss";
+
+.project {
+	padding: 16px 16px 1px 16px;
+  background-image: url("../assets/wood.jpg");
+  background-size: contain;
+	background-color: $color-background;
+	box-shadow:
+		4px 4px 4px $color-background-shadow,
+		-4px -4px 4px $color-background-shadow-light;
+	border-radius: 4px;
+}
+
+.project-title {
+  margin: 0px 0px 16px 0px;
+  padding: 4px 16px 4px 16px;
+  -moz-box-shadow: inset 0 0 16px $color-black;
+  -webkit-box-shadow: inset 0 0 16px $color-black;
+  box-shadow: inset 0 0 16px $color-black;
+}
+
+.project-media {
+  margin: 0px 0px 16px 0px;
+  padding: 4px;
+  -moz-box-shadow: inset 0 0 16px $color-black;
+  -webkit-box-shadow: inset 0 0 16px $color-black;
+  box-shadow: inset 0 0 16px $color-black;
+}
+
+.project-media img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.project-description {
+  margin: 0px 0px 16px 0px;
+  padding: 4px 16px 4px 16px;
+  -moz-box-shadow: inset 0 0 16px $color-black;
+  -webkit-box-shadow: inset 0 0 16px $color-black;
+  box-shadow: inset 0 0 16px $color-black;
 }
 </style>

@@ -21,56 +21,58 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import "@/scss/palette.scss";
+
 #nav {
-    padding: 30px;
+  padding: 24px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	box-shadow: 0px 0px 10px #575A5C20;
-    margin-bottom: 20px;
+	box-shadow: 0px 0px 8px $color-background-shadow-light;
+  margin-bottom: 16px;
 }
 
 #nav a {
-    margin-left:20px;
-    padding: 10px;
-	font-style:normal;
-	color:#1C9DFF;
-	font-size:1em;
-	font-weight:normal;
-    border: 1px;
+  margin-left: 16px;
+  padding: 8px;
+	font-style: normal;
+	color: $color-white;
+	font-size: 1em;
+	font-weight: normal;
+  border: 1px;
 	box-shadow:
-		5px 5px 5px #575A5C20,
-		-5px -5px 5px #FFFFFFFF;
-    border-radius: 5px;
+		4px 4px 4px $color-background-shadow,
+		-4px -4px 4px $color-background-shadow-light;
+    border-radius: 4px;
 }
 
 #nav a:link {
-    text-decoration: none;
-    color:#1C9DFF;
+  text-decoration: none;
+  color: $color-primary;
 }
 
 #nav a:visited {
-    text-decoration: none;
-    color:#1C9DFF;
+  text-decoration: none;
+  color: $color-primary;
 }
 
 #nav a:active {
-    text-decoration: none;
-    color:#1C9DFF;
+  text-decoration: none;
+  color: $color-primary;
 }
 
 #nav a:hover {
-    text-decoration: underline;
-    color:#575A5C;
-    transition: 300ms;
+  text-decoration: underline;
+  color: $color-white;
+  transition: 300ms;
 }
 
 #nav a.router-link-exact-active {
-    color: #575A5C;
+  color: $color-white;
 }
 
 #sitename {

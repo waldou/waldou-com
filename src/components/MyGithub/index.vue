@@ -47,13 +47,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import "@/scss/palette.scss";
+
 .centered {
-  margin: 10px;
-  padding: 10px;
+  margin: 8px;
+  padding: 8px;
 	box-shadow:
-		5px 5px 5px #575A5C20,
-		-5px -5px 5px #FFFFFFFF;
-	border-radius: 5px;
+		4px 4px 4px $color-background-shadow,
+		-4px -4px 4px $color-background-shadow-light;
+	border-radius: 4px;
 }
 </style>

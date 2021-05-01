@@ -1,7 +1,11 @@
 <template>
   <div class="project">
-    <h2>{{ title }}</h2>
-    <p v-html="description" />
+    <div class="project-title">
+      <h2>{{ title }}</h2>
+    </div>
+    <div class="project-description">
+      <p v-html="description" />
+    </div>
     <div v-if="media" v-html="media" class="project-media" />
   </div>
 </template>
@@ -21,12 +25,4 @@ export default {
 </script>
 
 <style scoped>
-.project {
-	padding:1px 20px 20px 20px;
-	background-color:#F5F5F5;
-	box-shadow:
-		5px 5px 5px #575A5C20,
-		-5px -5px 5px #FFFFFFFF;
-	border-radius: 5px;
-}
 </style>

@@ -64,7 +64,7 @@ header img {
 }
 
 .centered {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 </style>
