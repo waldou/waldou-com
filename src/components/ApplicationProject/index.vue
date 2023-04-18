@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'Project',
+  name: 'ApplicationProject',
   props: {
     title: { type: String, required: true, default: '' },
     year: { type: String, required: false, default: '' },

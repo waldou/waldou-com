@@ -3,6 +3,15 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
+const getLocale = () => {
+  return window.location.pathname.replace(/^\/([^/]+).*/i, '$1')
+}
+
+const getBaseUrl = () => {
+  const locale = getLocale()
+  return (locale.trim().length && locale != '/') ? '/' + locale : 'es'
+}
+
 const routes = [
   {
     path: '/',
@@ -22,7 +31,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: getBaseUrl(),
   routes
 })
 

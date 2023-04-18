@@ -103,9 +103,12 @@ import MyGithub from '@/components/MyGithub'
 import Application from '@/components/ApplicationProject'
 import Game from '@/components/GameProject'
 import Music from '@/components/MusicProject'
+import i18n from '@/i18n'
+
+const emptyData = { data: []}
 
 export default {
-  name: 'Projects',
+  name: 'ProjectsComponent',
   props: {
     projects: { type: Object, required: false, default() {
       return { data: []}
@@ -148,6 +151,9 @@ export default {
   },
   methods: {
     getProjects() {
+      if(!i18n.locale) {
+        return emptyData
+      }
       return axios.get('data/projects.json', {
         headers: {
           Accept: 'application/json',

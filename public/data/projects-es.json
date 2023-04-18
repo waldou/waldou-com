@@ -3,11 +3,11 @@
         {
             "link": "https://github.com/waldou/chip8-emulator",
             "media": "<figure><img src='/img/projects/chip8-desktop.gif'></figure>",
-            "title": "Chip8 Emulator",
+            "title": "Emulador Chip8",
             "year": "2021",
             "type": "Application",
             "platform": "Desktop",
-            "description": "CHIP-8 emulator/VM using Java 11 and Swing/AWT for the UI. It is open-sourced in <a href=\"https://github.com/waldou/chip8-emulator\">Github</a>. Check more about CHIP-8 in <a href=\"https://en.wikipedia.org/wiki/CHIP-8\">Wikipedia</a>."
+            "description": "Emulador/VM de CHIP-8 usando Java 11 y Swing/AWT para la UI. Es opensource en <a href=\"https://github.com/waldou/chip8-emulator\">Github</a>. Mira más sobre CHIP-8 en <a href=\"https://en.wikipedia.org/wiki/CHIP-8\">Wikipedia</a>."
         },
         {
             "link": "https://waldou.github.io/make-pretty-xml/",
@@ -16,7 +16,7 @@
             "year": "2018",
             "type": "Application",
             "platform": "Web",
-            "description": "Easy to use tool to present XML in a readable format. The project is structured using RequireJS, Backbone.js and jQuery. It is open-sourced in <a href=\"https://github.com/waldou/make-pretty-xml\">Github</a>."
+            "description": "Herramienta fácil de usar para presentar XML en un formato legible. El proyecto está estructurado usando RequireJS, Backbone.js y jQuery. Es opensource en <a href=\"https://github.com/waldou/make-pretty-xml\">Github</a>."
         },
         {
             "link": "https://play.google.com/store/apps/details?id=com.waldou.momourulib",
@@ -25,7 +25,7 @@
             "year": "2018",
             "type": "Application",
             "platform": "Android",
-            "description": "Easy to use tool to present XML in a readable format. The project is structured using RequireJS, Backbone.js and jQuery. It is open-sourced in <a href=\"https://github.com/waldou/make-pretty-xml\">Github</a>."
+            "description": "Acceso no oficial al catálogo de la biblioteca de la Universidad Rafael Urdaneta."
         },
         {
             "link": "https://play.google.com/store/apps/details?id=com.waldou.momouru",
@@ -34,7 +34,7 @@
             "year": "2014",
             "type": "Application",
             "platform": "Android & Chrome Extension",
-            "description": "Unofficial access for the Student Services system of the Universidad Rafael Urdaneta (Rafael Urdaneta University). It consists of three modules to see the student's Grades, Schedule and Payments."
+            "description": "Acceso no oficial al sistema de Servicios Estudiantiles de la Universidad Rafael Urdaneta. Consiste en 3 módulos para ver las Notas, Horario y Pagos del estudiante."
         },
         {
             "link": "https://play.google.com/store/apps/details?id=com.thingy.tlg",
@@ -43,7 +43,7 @@
             "year": "2014",
             "type": "Game",
             "platform": "Android",
-            "description": "<p><span class=\"quoted-text\">Bilumin is an abstract themed game where you control two luminescent spheres or \"lumins\". You must rotate them to get other small lumins while avoiding the obstacles that fall in between. There will be powerups that keep coming down that affect the behaviour to help (or not) your performance.</span></p><p>I worked as co-designer and lead programmer of this game, using a custom framework built on top of the Android SDK.</p>"
+            "description": "<p><span class=\"quoted-text\">Bilumin es un juego de temática abstracta donde controlas dos esferas luminiscentes o \"lumins\". Debes rotarlas para obtener otros pequeños lumins mientras evitas los obstáculos que caen en el medio. Habrán potenciadores que caerán que afectan el comportamiento para ayudar (o no) tu rendimiento.</span></p><p>Trabajé como co-diseñador y programador líder de este juego, usando un framework a la medida sobre el SDK de Android.</p>"
         },
         {
             "link": "https://play.google.com/store/apps/details?id=com.thingy.tsbot",
@@ -52,7 +52,7 @@
             "year": "2014",
             "type": "Game",
             "platform": "Android",
-            "description": "<p><span class=\"quoted-text\">The goal of the game is to remember the most steps of an automatically generated sequence, while the speed gradually increases as the bot teaches it to you. Challenge your memory with this simple but addictive game. Win achievements and compete with your friends in the online rankings, or globally with other players.</span></p><p>I worked as co-designer and lead programmer of this game, using a custom framework built on top of the Android SDK.</p>"
+            "description": "<p><span class=\"quoted-text\">El objetivo del juego es recordar la mayor cantidad de pasos de una secuencia generada automáticamente, mientras la velocidad gradualmente se incrementa. Reta tu memoria con este simple pero adictivo juego. Gana trofeos y compite con tus amigos en los rankings en línea, o globalmente con otros jugadores.</span></p><p>Trabajé como co-diseñador y programador líder de este juego, usando un framework a la medida sobre el SDK de Android.</p>"
         },
         {
             "link": "https://play.google.com/store/apps/details?id=com.thingy.ProjectStar",

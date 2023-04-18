@@ -23,10 +23,10 @@ export default {
 @font-face {
 	font-family: myFont;
 	color: $color-white;
-    src: url('/css/ffdin_r_l.eot?#iefix') format('embedded-opentype'),
-         url('/css/ffdin_r_l.woff') format('woff'),
-         url('/css/ffdin_r_l.ttf')  format('truetype'),
-         url('/css/ffdin_r_l.svg#svgFontName') format('svg');
+    src: url('../public/css/ffdin_r_l.eot?#iefix') format('embedded-opentype'),
+         url('../public/css/ffdin_r_l.woff') format('woff'),
+         url('../public/css/ffdin_r_l.ttf')  format('truetype'),
+         url('../public/css/ffdin_r_l.svg#svgFontName') format('svg');
 }
 
 body {

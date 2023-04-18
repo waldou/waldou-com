@@ -10,7 +10,7 @@ module.exports = {
     'eslint:recommended'
   ],
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser'
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -38,10 +38,11 @@ module.exports = {
       files: [ '*.vue' ],
       rules: {
         'vue/max-attributes-per-line': [ 'error', {
-          'singleline': 5,
+          'singleline': {
+            'max': 5,
+          },
           'multiline': {
             'max': 5,
-            'allowFirstLine': false
           }
         } ]
       }

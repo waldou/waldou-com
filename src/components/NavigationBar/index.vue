@@ -1,12 +1,12 @@
 <template>
   <div id="nav">
     <div class="centered">
-      <span id="sitename">WALDO URRIBARRI</span>
+      <span id="sitename">{{ $t('navbar.sitename') }}</span>
       <router-link to="/">
-        HOME
+        {{ $t('navbar.home') }}
       </router-link>
       <router-link to="/projects">
-        PROJECTS
+        {{ $t('navbar.projects') }}
       </router-link>
     </div>
   </div>
