@@ -1,4 +1,4 @@
 {
-    "esprojects": "https://www.waldou.com/es/data/projects.json",
-    "enprojects": "https://www.waldou.com/en/data/projects.json"
+    "esprojects": "https://waldou.com/es/data/projects.json",
+    "enprojects": "https://waldou.com/en/data/projects.json"
 }
