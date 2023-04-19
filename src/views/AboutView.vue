@@ -4,7 +4,7 @@
       <section id="about-me">
         <h1>{{ $t('about.sectionTitle') }}</h1>
         <div class="infotxt">
-          <p v-html="$t('about.paragraphOne', { age: yearCount('1988-03-17') })" />
+          <p v-html="$t('about.paragraphOne')" />
           <p>{{ $t('about.paragraphTwo', { as400Age: yearCount('2010-09-08', '2014-06-09'), webAge: yearCount('2011-08-01'), androidAge: yearCount('2012-07-01', '2022-05-01') }) }}</p>
           <p v-html="$t('about.paragraphThree', { ytAge: yearCount('2022-02-25') })" />
         </div>

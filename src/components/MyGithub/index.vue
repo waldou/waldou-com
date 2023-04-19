@@ -1,18 +1,18 @@
 <template>
   <div class="centered">
     <div v-if="updatedAt" class="myGithub">
-      <span>My <a href="https://github.com/waldou">Github</a> was last updated {{ formattedDate }}</span>
+      <span v-html="$t('github.loaded', { formattedDate })" />
     </div>
     <div v-else class="myGithub">
-      <span>My <a href="https://github.com/waldou">Github</a></span>
+      <span v-html="$t('github.notloaded')" />
     </div>
     <div />
   </div>
 </template>
 
 <script>
-import axios from 'axios'
 import moment from 'moment'
+import githubApi from '@/api/github'
 
 export default {
   name: 'MyGithub',
@@ -32,16 +32,12 @@ export default {
   computed:{
     formattedDate: function() {
       const m = moment(this.updatedAt)
-      return m.format('[on] YYYY-MM-DD [at] HH:mm:ss')
+      return m.format(this.$t('github.dateFormat'))
     }
   },
   methods: {
     getGithubData: function() {
-      return axios.get('https://api.github.com/users/waldou', {
-        headers: {
-          Accept: 'application/json'
-        }
-      })
+      return githubApi.getUserInfo()
     }
   }
 }

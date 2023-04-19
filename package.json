@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test": "npx jest --watch",
-    "tests": "npx jest --coverage && vue-cli-service lint"
+    "tests": "npx jest --coverage && vue-cli-service lint",
+    "stubby": "stubby -wd ./src/testing/stubby.yaml"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -30,7 +31,8 @@
     "eslint-plugin-vue": "^8.0.3",
     "moxios": "^0.4.0",
     "node-sass": "^8.0.0",
-    "sass-loader": "^13.2.2"
+    "sass-loader": "^13.2.2",
+    "stubby": "^5.1.0"
   },
   "browserslist": [
     "> 1%",

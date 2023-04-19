@@ -11,10 +11,10 @@
     <div v-if="media" v-html="media" class="project-media" />
     <div class="project-description">
       <p v-if="type">
-        Type: {{ type }}
+        {{ $t('projects.type') }} {{ $t('projects.types')[type] }}
       </p>
       <p v-if="platform">
-        Platform: {{ platform }}
+        {{ $t('projects.platform') }} {{ $t('projects.platforms')[platform] }}
       </p>
       <p v-if="description" v-html="description" />
     </div>

@@ -1,0 +1,15 @@
+- request:
+    url: ^/es/data/projects.json$
+    method: GET
+  response:
+    - status: 200
+      latency: 1000
+      file: ../../public/es/data/projects.json
+
+- request:
+    url: ^/en/data/projects.json$
+    method: GET
+  response:
+    - status: 200
+      latency: 1000
+      file: ../../public/en/data/projects.json

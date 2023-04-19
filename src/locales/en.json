@@ -1,5 +1,48 @@
 {
+    "navbar": {
+        "sitename": "WALDOU",
+        "home": "HOME",
+        "projects": "PROJECTS"
+    },
     "about": {
-        "sectionTitle": "About me"
+        "sectionTitle": "About me",
+        "paragraphOne": "Hi! I'm Waldo, I'm a software developer and <a href='https://en.wiktionary.org/wiki/cover_artist'>cover artist</a> in my free time.",
+        "paragraphTwo": "On the professional side, I have {as400Age}+ of experience developing for the IBM iSeries platform, {webAge}+ years developing for the web, and {androidAge}+ years developing for the Android platform (native development and React Native framework).",
+        "paragraphThree": "I've been a musician in several bands, and composed music for videogames. Since about {ytAge}+ years I run a <a href='https://www.youtube.com/@WaldouPM'>YouTube channel</a> where I do versions (covers) of pop songs to the pop punk/emo genres."
+    },
+    "resume": {
+        "sectionTitle": "Resume",
+        "content": [
+            "Education: BSc in Computer Engineering [2010]",
+            "Languages: Spanish [Native] and English [Advanced]",
+            "Skills: Android SDK, CSS3, HTML, Java, Javascript, JEE, jQuery, MySQL, Node, PHP, React Native, RPGLE, Vue.js",
+            "Experience:",
+            "- Head of Engineering in Cuprum AFP [2023-Presente]",
+            "- Senior Engineer in Cuprum AFP [2018-2023]",
+            "- Software Engineer in IGT Global Solutions Corporation Chile [2014-2018]",
+            "- Android Programmer in Thingy [2012-2015]",
+            "- AS400 Systems Analyst in Banco Occidental de Descuento [2010-2014]<br>",
+            "For a detailed overview on my skills and experience please check my <a class='infotxt' href='https://linkedin.com/in/waldou'>LinkedIn</a>."
+        ]
+    },
+    "github": {
+        "dateFormat": "YYYY-MM-DD [at] HH:mm:ss",
+        "notloaded": "My <a href='https://github.com/waldou'>Github</a>",
+        "loaded": "My <a href='https://github.com/waldou'>Github</a> was last updated on {formattedDate}"
+    },
+    "projects": {
+        "type": "Type:",
+        "platform": "Platform:",
+        "types": {
+            "Application": "Application",
+            "Game": "Game",
+            "Music": "Music"
+        },
+        "platforms": {
+            "Desktop": "Desktop",
+            "Web": "Web",
+            "Android": "Android",
+            "Android & Chrome Extension": "Android & Chrome Extension"
+        }
     }
 }

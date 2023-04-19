@@ -98,14 +98,12 @@
 </template>
 
 <script>
-import axios from 'axios'
 import MyGithub from '@/components/MyGithub'
 import Application from '@/components/ApplicationProject'
 import Game from '@/components/GameProject'
 import Music from '@/components/MusicProject'
 import i18n from '@/i18n'
-
-const emptyData = { data: []}
+import projectsApi from '@/api/projects'
 
 export default {
   name: 'ProjectsComponent',
@@ -151,14 +149,7 @@ export default {
   },
   methods: {
     getProjects() {
-      if(!i18n.locale) {
-        return emptyData
-      }
-      return axios.get('data/projects.json', {
-        headers: {
-          Accept: 'application/json',
-        },
-      })
+      return projectsApi.getProjects(i18n.locale)
     },
   },
 }

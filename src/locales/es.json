@@ -2,20 +2,20 @@
     "navbar": {
         "sitename": "WALDOU",
         "home": "INICIO",
-        "projects": "PROJECTOS"
+        "projects": "PROYECTOS"
     },
     "about": {
         "sectionTitle": "Sobre mi",
-        "paragraphOne": "¡Hola! Soy Waldo, tengo {age} años y soy un desarrollador de software y <a href='https://en.wiktionary.org/wiki/cover_artist'>artista de covers</a> en mi tiempo libre.",
+        "paragraphOne": "¡Hola! Soy Waldo, y soy un desarrollador de software y <a href='https://en.wiktionary.org/wiki/cover_artist'>artista de covers</a> en mi tiempo libre.",
         "paragraphTwo": "En el ámbito profesional, tengo {as400Age}+ años de experiencia desarrollando para la plataforma IBM iSeries, {webAge}+ años desarrollando para la web, como también {androidAge}+ años desarrollando para la plataforma Android (tanto nativo como usando React Native).",
         "paragraphThree": "También fui músico de varias bandas, y he compuesto música para videojuegos. En mi tiempo libre desde hace {ytAge}+ años, tengo un <a href='https://www.youtube.com/@WaldouPM'>canal de YouTube</a> y hago versiones (covers) de canciones pop a un estilo pop punk/emo."
     },
     "resume": {
         "sectionTitle": "Resume",
         "content": [
-            "Educación: BSc in Computer Engineering [2010].",
-            "Lenguajes: Español [Nativo] e Inglés [Avanzado].",
-            "Habilidades: Android SDK, CSS3, HTML, Java, Javascript, JEE, jQuery, MySQL, Node, PHP, React Native, RPGLE, Vue.js.",
+            "Educación: Ingeniero en Informática [2010]",
+            "Lenguajes: Español [Nativo] e Inglés [Avanzado]",
+            "Habilidades: Android SDK, CSS3, HTML, Java, Javascript, JEE, jQuery, MySQL, Node, PHP, React Native, RPGLE, Vue.js",
             "Experiencia:",
             "- Head of Engineering en Cuprum AFP [2023-Presente]",
             "- Senior Engineer en Cuprum AFP [2018-2023]",
@@ -24,5 +24,25 @@
             "- AS400 Systems Analyst en Banco Occidental de Descuento [2010-2014]<br>",
             "Para una vista detallada de mis habilidades y experiencia por favor mira mi perfil de <a class='infotxt' href='https://linkedin.com/in/waldou'>LinkedIn</a>."
         ]
+    },
+    "github": {
+        "dateFormat": "YYYY-MM-DD [a las] HH:mm:ss",
+        "notloaded": "Mi <a href='https://github.com/waldou'>Github</a>",
+        "loaded": "Mi <a href='https://github.com/waldou'>Github</a> fue actualizado en {formattedDate}"
+    },
+    "projects": {
+        "type": "Tipo:",
+        "platform": "Plataforma:",
+        "types": {
+            "Application": "Aplicación",
+            "Game": "Juego",
+            "Music": "Música"
+        },
+        "platforms": {
+            "Desktop": "Escritorio",
+            "Web": "Web",
+            "Android": "Android",
+            "Android & Chrome Extension": "Android y Extensión Chrome"
+        }
     }
 }

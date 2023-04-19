@@ -61,21 +61,21 @@
             "year": "2014",
             "type": "Game",
             "platform": "Android",
-            "description": "<p><span class=\"quoted-text\">You will have to help an alien named Bult to construct as many starships as possible within the time limit, after a meteorite crash on his moon that wrecked all of his work. But it won't be that easy, because to construct much more starships you'll have to sharpen your reflexes and hurry up to best your score.</span></p><p>I worked as co-designer and lead programmer of this game, using a custom framework built on top of the Android SDK. I also recorded and produced all sounds and musical pieces.</p>"
+            "description": "<p><span class=\"quoted-text\">Tendrás que ayudar a un alien llamado Bult a construir tantas naves espaciales como sea posible dentro del límite de tiempo, luego que un meteorito cayera en su luna y dañara todo su trabajo. Pero no será fácil, ya que para construir muchas más naves tendrás que mejorar tus reflejos y apurarte para un mejor puntaje.</span></p><p>Trabajé como co-diseñador y programador líder de este juego, usando un framework a la medida sobre el SDK de Android. También grabé y produje todos los sonidos y piezas musicales.</p>"
         },
         {
             "link": "",
             "media": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/49668289&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/waldou\" title=\"Waldou\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Waldou</a> · <a href=\"https://soundcloud.com/waldou/sets/somos-heroes\" title=\"Somos Heroes\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Somos Heroes</a></div>",
             "title": "Somos Heroes",
             "type": "Music",
-            "description": "I'm the former songwriter, singer and guitar player of the band Somos Heroes. This is an extract of the only EP released by the band, 'Inténtalo Otra Vez'. Two of these songs, '16' and 'Estrella' where featured on MTV Demo, winners on both pop and rock categories respectively."
+            "description": "Fui escritor, cantante y guitarrista de la banda Somos Heroes. Este es un extracto del único EP lanzado por la banda, 'Inténtalo Otra Vez'. Dos de las canciones, '16' y 'Estrella' fueron presentadas en MTV Demo, y <a href='https://blog.ourstage.com/2011/06/25/guacamusic-somos-heroes/'>ganadoras en la categoría pop y rock</a> respectivamente."
         },
         {
             "link": "",
             "media": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/49672453&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/waldou\" title=\"Waldou\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Waldou</a> · <a href=\"https://soundcloud.com/waldou/sets/starship-constructor\" title=\"Starship Constructor\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Starship Constructor</a></div>",
             "title": "Starship Constructor Music",
             "type": "Music",
-            "description": "Songs for a puzzle game for Android. There was a third unused song composed early in the development process."
+            "description": "Canciones para un juego tipo puzzle en Android. Hubo una tercera canción no utilizada temprano en el proceso de desarrollo."
         }
     ]
 }
