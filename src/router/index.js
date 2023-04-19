@@ -3,8 +3,15 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
+const VALID_LOCALES = [ 'es', 'en' ]
+
 const getLocale = () => {
-  return window.location.pathname.replace(/^\/([^/]+).*/i, '$1')
+  const value = window.location.pathname.replace(/^\/([^/]+).*/i, '$1')
+  if(!value || !VALID_LOCALES[value]) {
+    return process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'es'
+  } else {
+    return value
+  }
 }
 
 const getBaseUrl = () => {

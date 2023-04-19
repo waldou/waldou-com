@@ -3,10 +3,20 @@ import VueI18n from 'vue-i18n'
 
 Vue.use(VueI18n)
 
+const VALID_LOCALES = [ 'es', 'en' ]
+
+const getLocaleOrFallback = (locale) => {
+  if(!locale || !VALID_LOCALES[locale]) {
+    return process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'es'
+  } else {
+    return locale
+  }
+}
+
 const getLocale = () => {
   const value = window.location.pathname.replace(/^\/([^/]+).*/i, '$1')
   if(value !== '/') {
-    return value
+    return getLocaleOrFallback(value)
   }
   return 'es'
 }
@@ -26,6 +36,6 @@ function loadLocaleMessages () {
 
 export default new VueI18n({
   locale: getLocale(),
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'es',
+  fallbackLocale: getLocaleOrFallback(),
   messages: loadLocaleMessages(),
 })
