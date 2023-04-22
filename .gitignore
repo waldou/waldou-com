@@ -24,5 +24,4 @@ package-lock.json
 .coverage
 coverage
 
-/src/api/credentials/local.js
-/src/api/credentials/production.js
+src/api/credentials/*.json
