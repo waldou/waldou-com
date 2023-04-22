@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "link": "https://github.com/waldou/chip8-emulator",
+            "media": "<figure><img src='/img/projects/chip8-desktop.gif'></figure>",
+            "title": "Emulador Chip8",
+            "year": "2021",
+            "type": "Application",
+            "platform": "Desktop",
+            "description": "Emulador/VM de CHIP-8 usando Java 11 y Swing/AWT para la UI. Es opensource en <a href=\"https://github.com/waldou/chip8-emulator\">Github</a>. Mira más sobre CHIP-8 en <a href=\"https://en.wikipedia.org/wiki/CHIP-8\">Wikipedia</a>."
+        },
+        {
+            "link": "https://waldou.github.io/make-pretty-xml/",
+            "media": "<figure><img src='/img/projects/mpxml.png'></figure>",
+            "title": "Make Pretty XML",
+            "year": "2018",
+            "type": "Application",
+            "platform": "Web",
+            "description": "Herramienta fácil de usar para presentar XML en un formato legible. El proyecto está estructurado usando RequireJS, Backbone.js y jQuery. Es opensource en <a href=\"https://github.com/waldou/make-pretty-xml\">Github</a>."
+        },
+        {
+            "link": "https://play.google.com/store/apps/details?id=com.waldou.momourulib",
+            "media": "<figure><img src='/img/projects/momourulib_app.jpg'></figure>",
+            "title": "MomoURU Biblioteca",
+            "year": "2018",
+            "type": "Application",
+            "platform": "Android",
+            "description": "Acceso no oficial al catálogo de la biblioteca de la Universidad Rafael Urdaneta."
+        },
+        {
+            "link": "https://play.google.com/store/apps/details?id=com.waldou.momouru",
+            "media": "<figure><img src='/img/projects/momouru_app.jpg'></figure>",
+            "title": "MomoURU",
+            "year": "2014",
+            "type": "Application",
+            "platform": "Android & Chrome Extension",
+            "description": "Acceso no oficial al sistema de Servicios Estudiantiles de la Universidad Rafael Urdaneta. Consiste en 3 módulos para ver las Notas, Horario y Pagos del estudiante."
+        },
+        {
+            "link": "https://play.google.com/store/apps/details?id=com.thingy.tlg",
+            "media": "<figure><img src='/img/projects/tlg_game.png'></figure>",
+            "title": "Bilumin",
+            "year": "2014",
+            "type": "Game",
+            "platform": "Android",
+            "description": "<p><span class=\"quoted-text\">Bilumin es un juego de temática abstracta donde controlas dos esferas luminiscentes o \"lumins\". Debes rotarlas para obtener otros pequeños lumins mientras evitas los obstáculos que caen en el medio. Habrán potenciadores que caerán que afectan el comportamiento para ayudar (o no) tu rendimiento.</span></p><p>Trabajé como co-diseñador y programador líder de este juego, usando un framework a la medida sobre el SDK de Android.</p>"
+        },
+        {
+            "link": "https://play.google.com/store/apps/details?id=com.thingy.tsbot",
+            "media": "<figure><img src='/img/projects/sq_game.png'></figure>",
+            "title": "Squarebot",
+            "year": "2014",
+            "type": "Game",
+            "platform": "Android",
+            "description": "<p><span class=\"quoted-text\">El objetivo del juego es recordar la mayor cantidad de pasos de una secuencia generada automáticamente, mientras la velocidad gradualmente se incrementa. Reta tu memoria con este simple pero adictivo juego. Gana trofeos y compite con tus amigos en los rankings en línea, o globalmente con otros jugadores.</span></p><p>Trabajé como co-diseñador y programador líder de este juego, usando un framework a la medida sobre el SDK de Android.</p>"
+        },
+        {
+            "link": "https://play.google.com/store/apps/details?id=com.thingy.ProjectStar",
+            "media": "<figure><img src='/img/projects/sc_game.png'></figure>",
+            "title": "Starship Constructor",
+            "year": "2014",
+            "type": "Game",
+            "platform": "Android",
+            "description": "<p><span class=\"quoted-text\">Tendrás que ayudar a un alien llamado Bult a construir tantas naves espaciales como sea posible dentro del límite de tiempo, luego que un meteorito cayera en su luna y dañara todo su trabajo. Pero no será fácil, ya que para construir muchas más naves tendrás que mejorar tus reflejos y apurarte para un mejor puntaje.</span></p><p>Trabajé como co-diseñador y programador líder de este juego, usando un framework a la medida sobre el SDK de Android. También grabé y produje todos los sonidos y piezas musicales.</p>"
+        },
+        {
+            "link": "",
+            "media": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/49668289&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/waldou\" title=\"Waldou\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Waldou</a> · <a href=\"https://soundcloud.com/waldou/sets/somos-heroes\" title=\"Somos Heroes\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Somos Heroes</a></div>",
+            "title": "Somos Heroes",
+            "type": "Music",
+            "description": "Fui escritor, cantante y guitarrista de la banda Somos Heroes. Este es un extracto del único EP lanzado por la banda, 'Inténtalo Otra Vez'. Dos de las canciones, '16' y 'Estrella' fueron presentadas en MTV Demo, y <a href='https://blog.ourstage.com/2011/06/25/guacamusic-somos-heroes/'>ganadoras en la categoría pop y rock</a> respectivamente."
+        },
+        {
+            "link": "",
+            "media": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/49672453&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/waldou\" title=\"Waldou\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Waldou</a> · <a href=\"https://soundcloud.com/waldou/sets/starship-constructor\" title=\"Starship Constructor\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Starship Constructor</a></div>",
+            "title": "Starship Constructor Music",
+            "type": "Music",
+            "description": "Canciones para un juego tipo puzzle en Android. Hubo una tercera canción no utilizada temprano en el proceso de desarrollo."
+        }
+    ]
+}
