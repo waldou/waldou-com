@@ -1,7 +1,7 @@
 import youtubeApi from './index'
 import moxios from 'moxios'
 
-const URL_REGEX = /^https:\/\/0.0.0.0:7443\/youtube\/v3\/search.+?/
+const URL_REGEX = /^https:\/\/127.0.0.1:7443\/youtube\/v3\/search.+?/
 
 beforeEach(() => {
   jest.clearAllMocks()

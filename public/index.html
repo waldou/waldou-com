@@ -13,10 +13,10 @@
     <meta property="fb:admins" content="815916987" />
     <meta property="fb:app_id" content="304360266348367" />
     <meta property="og:title" content="waldou.com" />
-    <meta property="og:description" content="waldou.com[Personal blog and sandbox of Waldo Urribarri]" />
+    <meta property="og:description" content="waldou.com[Caja de arena de Waldou]" />
     <meta property="og:url" content="https://waldou.com/" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://waldou.com/img/waldou.jpg"/>
+    <meta property="og:image" content="https://waldou.com/img/waldou.png"/>
     <!-- END FACEBOOK OPENGRAPH TAGS -->
 
     <!-- Start Single Page Apps for GitHub Pages -->
@@ -51,16 +51,52 @@
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111998844-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-111998844-1');
+      function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ')
+            c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0)
+            return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+      }
     </script>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111998844-1"></script>
+    <script>
+      if(getCookie('tracking-consent')) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-111998844-1');
+      }
+    </script>
   </head>
   <body>
+    <script>
+      if(getCookie('tracking-consent')) {
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '304360266348367',
+            xfbml      : true,
+            version    : 'v16.0'
+          });
+          FB.AppEvents.logPageView();
+        };
+
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      }
+    </script>
     <noscript>
       <strong>I'm sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>

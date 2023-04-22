@@ -37,8 +37,12 @@ const routes = [
   },
   {
     path: '/en/m',
-    name: 'Music',
+    name: 'MusicEnglish',
     component: () => import('../views/MusicView.vue')
+  },
+  {
+    path: '/music',
+    redirect: { name: 'Music' }
   },
   {
     path: '*',

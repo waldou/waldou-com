@@ -28,7 +28,7 @@ it('returns empty projects when no language is provided', () => {
 })
 
 it('returns projects from remote', async () => {
-  moxios.stubRequest('https://0.0.0.0:7443/es/data/projects.json', { status: 200, response: fakeResponse })
+  moxios.stubRequest('https://127.0.0.1:7443/es/data/projects.json', { status: 200, response: fakeResponse })
   const response = await projectsApi.getProjects('es')
   await moxiosPromise(() => {
     expect(response.data).toBe(fakeResponse)

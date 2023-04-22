@@ -1,6 +1,15 @@
 <template>
   <div id="app">
     <router-view />
+    <div id="cookies-consent" v-if="getCookie('tracking-consent') == null">
+      <p>{{ $t('consent.notice') }}</p>
+      <button class="consent-button" @click="consent()">
+        {{ $t('consent.consent') }}
+      </button>
+      <button class="consent-button" @click="revokeConsent()">
+        {{ $t('consent.revoke') }}
+      </button>
+    </div>
   </div>
 </template>
 
@@ -10,6 +19,39 @@ export default {
   name: 'App',
   components: {
   },
+  methods: {
+    setCookie: function(name, value, days) {
+      var expires = '';
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = '; expires=' + date.toUTCString();
+      }
+      document.cookie = name + '=' + (value || '') + expires + '; path=/';
+    },
+    getCookie: function(name) {
+      var nameEQ = name + '=';
+      var ca = document.cookie.split(';');
+      for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+          c = c.substring(1, c.length);
+        }
+        if (c.indexOf(nameEQ) == 0) {
+          return c.substring(nameEQ.length, c.length);
+        }
+      }
+      return null;
+    },
+    consent: function() {
+      this.setCookie('tracking-consent', 'true', 365);
+      location.reload();
+    },
+    revokeConsent: function() {
+      this.setCookie('tracking-consent', 'false', 365);
+      location.reload();
+    }
+  }
 }
 </script>
 
@@ -109,6 +151,40 @@ hr {
 
 .quoted-text {
 	font-style: italic;
+}
+
+#cookies-consent {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: $color-white;
+  color: $color-music-one;
+  text-shadow: none;
+  padding: 16px;
+}
+
+#cookies-consent p {
+  padding: 0xp;
+  margin: 0px;
+}
+
+.consent-button {
+  background-color: $color-music-five;
+  color: $color-white;
+  padding: 8px 0px 8px 0px;
+  margin: 8px 8px 0px 0px;
+  border: 0px;
+	border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.consent-button:hover {
+  background-color: $color-music-four;
+  transition: 200ms;
 }
 </style>
 

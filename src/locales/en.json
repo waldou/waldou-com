@@ -4,6 +4,11 @@
         "home": "HOME",
         "projects": "PROJECTS"
     },
+    "consent": {
+        "notice": "I use cookies and other tracking technologies to improve your browsing experience on my website. By clicking 'I consent', you consent to the use of these technologies.",
+        "consent": "I consent",
+        "revoke": "Revoke consent"
+    },
     "about": {
         "sectionTitle": "About me",
         "paragraphOne": "Hi! I'm Waldo, I'm a software developer and <a href='https://en.wiktionary.org/wiki/cover_artist'>cover artist</a> in my free time.",
@@ -47,6 +52,6 @@
     },
     "music": {
         "title": "Waldou PM",
-        "subtitle": "Follow me on my socials!"
+        "subtitle": "Find my music on"
     }
 }

@@ -1,6 +1,6 @@
 {
-    "esprojects": "https://0.0.0.0:7443/es/data/projects.json",
-    "enprojects": "https://0.0.0.0:7443/en/data/projects.json",
+    "esprojects": "https://127.0.0.1:7443/es/data/projects.json",
+    "enprojects": "https://127.0.0.1:7443/en/data/projects.json",
     "github": "https://api.github.com/users/waldou",
-    "youtube": "https://0.0.0.0:7443/youtube/v3/search?channelId=UCLCB9LUdfHUNGt-wxg8f8bA&part=snippet&maxResults=2&type=video&order=date"
+    "youtube": "https://127.0.0.1:7443/youtube/v3/search?channelId=UCLCB9LUdfHUNGt-wxg8f8bA&part=snippet&maxResults=2&type=video&order=date"
 }
