@@ -3,10 +3,10 @@
     <router-view />
     <div id="cookies-consent" v-if="getCookie('tracking-consent') == null">
       <p>{{ $t('consent.notice') }}</p>
-      <button class="consent-button" @click="consent()">
+      <button class="consent-button" type="button" @click="consent()">
         {{ $t('consent.consent') }}
       </button>
-      <button class="consent-button" @click="revokeConsent()">
+      <button class="consent-button" type="button" @click="revokeConsent()">
         {{ $t('consent.revoke') }}
       </button>
     </div>
