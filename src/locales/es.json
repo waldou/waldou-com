@@ -44,5 +44,9 @@
             "Android": "Android",
             "Android & Chrome Extension": "Android y Extensión Chrome"
         }
+    },
+    "music": {
+        "title": "Waldou PM",
+        "subtitle": "¡Sígueme en mis redes!"
     }
 }

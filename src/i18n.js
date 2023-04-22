@@ -6,7 +6,7 @@ Vue.use(VueI18n)
 const VALID_LOCALES = [ 'es', 'en' ]
 
 const getLocaleOrFallback = (locale) => {
-  if(!locale || !VALID_LOCALES[locale]) {
+  if(!locale || !VALID_LOCALES.includes(locale)) {
     return process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'es'
   } else {
     return locale

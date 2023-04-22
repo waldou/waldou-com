@@ -1,0 +1,81 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "ADL7EUKBxnQL-Q8GxAH1iyKWDtg",
+    "nextPageToken": "CAIQAA",
+    "regionCode": "CL",
+    "pageInfo": {
+      "totalResults": 76,
+      "resultsPerPage": 2
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "B_jsiVPadWCY93iMnFg73YzoaZ4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "kbXwJHXa940"
+        },
+        "snippet": {
+          "publishedAt": "2023-04-09T20:41:03Z",
+          "channelId": "UCLCB9LUdfHUNGt-wxg8f8bA",
+          "title": "Ed Maverick pero es punk rock #shorts",
+          "description": "Cover completo: https://youtu.be/CVLz-K4eD2M Ed Maverick cover emo/punk rock de \"Fuentes de Ortiz\" por Waldou PM.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kbXwJHXa940/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kbXwJHXa940/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kbXwJHXa940/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "WaldouPM",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-04-09T20:41:03Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "rm-IOWP5-kq4ryC2vMzTzxBsaNQ",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "CVLz-K4eD2M"
+        },
+        "snippet": {
+          "publishedAt": "2023-04-06T15:00:07Z",
+          "channelId": "UCLCB9LUdfHUNGt-wxg8f8bA",
+          "title": "FUENTES DE ORTIZ (Ed Maverick) cover pero es PUNK ROCK!",
+          "description": "Ed Maverick cover emo/punk rock de \"Fuentes de Ortiz\" por Waldou PM. Es debatible igual si esta canción ya es super emo en su ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/CVLz-K4eD2M/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CVLz-K4eD2M/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CVLz-K4eD2M/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "WaldouPM",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-04-06T15:00:07Z"
+        }
+      }
+    ]
+  }
+  

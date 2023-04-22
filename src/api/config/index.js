@@ -1,5 +1,5 @@
-import localConfig from '../config/local.json'
-import prodConfig from '../config/production.json'
+import localConfig from './local.json'
+import prodConfig from './production.json'
 
 const config = () => {
   if(process.env.NODE_ENV === 'production') {

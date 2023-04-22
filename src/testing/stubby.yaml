@@ -13,3 +13,12 @@
     - status: 200
       latency: 1000
       file: ../../public/en/data/projects.json
+
+- request:
+    url: ^/youtube/v3/search?$
+    method: GET
+  response:
+    - status: 400
+      latency: 1000
+      file: samples/youtubeResponse.json
+

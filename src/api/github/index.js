@@ -1,7 +1,8 @@
 import axios from 'axios'
+import config from '../config'
 
 const getUserInfo = () => {
-  return axios.get('https://api.github.com/users/waldou', {
+  return axios.get(config().github, {
     headers: {
       Accept: 'application/json'
     }

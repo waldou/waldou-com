@@ -7,7 +7,7 @@ const VALID_LOCALES = [ 'es', 'en' ]
 
 const getLocale = () => {
   const value = window.location.pathname.replace(/^\/([^/]+).*/i, '$1')
-  if(!value || !VALID_LOCALES[value]) {
+  if(!value || !VALID_LOCALES.includes(value)) {
     return process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'es'
   } else {
     return value
@@ -29,6 +29,16 @@ const routes = [
     path: '/projects',
     name: 'Projects',
     component: () => import('../views/ProjectsView.vue')
+  },
+  {
+    path: '/m',
+    name: 'Music',
+    component: () => import('../views/MusicView.vue')
+  },
+  {
+    path: '/en/m',
+    name: 'Music',
+    component: () => import('../views/MusicView.vue')
   },
   {
     path: '*',

@@ -1,4 +1,6 @@
 {
     "esprojects": "https://waldou.com/es/data/projects.json",
-    "enprojects": "https://waldou.com/en/data/projects.json"
+    "enprojects": "https://waldou.com/en/data/projects.json",
+    "github": "https://api.github.com/users/waldou",
+    "youtube": "https://www.googleapis.com/youtube/v3/search?channelId=UCLCB9LUdfHUNGt-wxg8f8bA&part=snippet&maxResults=2&type=video&order=date"
 }

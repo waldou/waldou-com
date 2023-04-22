@@ -3,17 +3,22 @@ module.exports = {
   testMatch: [
     '<rootDir>/src/**/*.test.js',
   ],
-  testPathIgnorePatterns: [
-    '<rootDir>/node_modules/',
-  ],
   moduleNameMapper: {
     '^.+\\.(css|less|scss)$': 'babel-jest',
   },
   coverageDirectory: '<rootDir>/.coverage/',
+  testPathIgnorePatterns: [
+    '<rootDir>/node_modules/',
+  ],
+  coveragePathIgnorePatterns: [
+    '<rootDir>/src/App.vue',
+    '<rootDir>/src/main.js',
+    '<rootDir>/src/i18n.js',
+    '<rootDir>/src/router/index.js'
+  ],
   collectCoverageFrom: [
     '<rootDir>/src/**/*.vue',
-    '!<rootDir>/src/**/*.js',
-    '!<rootDir>/src/App.vue',
+    '<rootDir>/src/**/*.js',
   ],
   coverageThreshold: {
     global: {
