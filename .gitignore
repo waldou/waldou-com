@@ -23,3 +23,6 @@ yarn-error.log*
 package-lock.json
 .coverage
 coverage
+
+/src/api/credentials/local.js
+/src/api/credentials/production.js
